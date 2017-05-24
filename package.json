@@ -1,0 +1,21 @@
+{
+  "name": "node3",
+  "version": "1.0.0",
+  "description": "\"this is my third nodejs application\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "start" : "nodemon server.js"
+  },
+  "author": "pooja biswal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1",
+    "mongoose": "^4.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

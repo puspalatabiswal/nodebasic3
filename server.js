@@ -1,8 +1,10 @@
 var express = require ("express");
 var app = express();
 var router = express.Router();
-
-
+var importData = require('./import.js')
+//console .log(importData)
+/*console .log(importData.sample());*/
+console .log(importData);
 /*app.get("/" , function(req , res){
 res.json({message : "welcome to hyderabad..."})
 })
